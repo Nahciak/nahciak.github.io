@@ -60,7 +60,7 @@ li a{
     text-decoration: none;
     font-weight: bold;
     float: right;
-    padding: 20px;
+    padding: 25px;
     transition: ease 0.3s opacity;
     background-color: #363636;
     border-radius: 10px;
@@ -94,14 +94,14 @@ section{
     text-align: center;
     margin: 80px;
 }
-.flip-card {
+.flip {
     background-color: transparent;
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    perspective: 1600px; /* Remove this if you don't want the 3D effect */
+    perspective: 1600px;
   }
-  .flip-card-inner {
+  .flip-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -109,23 +109,22 @@ section{
     transition: transform 0.5s;
     transform-style: preserve-3d;
   }
-  .flip-card:hover .flip-card-inner {
+  .flip:hover .flip-inner {
     transform: rotateX(-180deg);
   }
-  .flip-card-front, .flip-card-back {
+  .flip-front, .flip-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
-  .flip-card-front {
+  .flip-front {
     border-radius: 20px;
-    background-color: #363636;
+    background-color: #242424;
     color: white;
     font-size: 2em;
   }
-  .flip-card-back {
+  .flip-back {
     background-color: rgb(46, 46, 46);
     color: white;
     transform: rotateX(-180deg);
