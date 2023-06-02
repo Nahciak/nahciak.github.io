@@ -60,7 +60,7 @@ li a{
     text-decoration: none;
     font-weight: bold;
     float: right;
-    padding: 50px 25px 25px 50px;
+    padding: 50px 25px 50px 25px;
     transition: ease 0.3s opacity;
     background-color: #363636;
     border-radius: 10px;
