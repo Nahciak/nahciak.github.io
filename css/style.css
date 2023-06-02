@@ -60,7 +60,7 @@ li a{
     text-decoration: none;
     font-weight: bold;
     float: right;
-    padding: 25px;
+    padding: 50px 25px 25px 50px;
     transition: ease 0.3s opacity;
     background-color: #363636;
     border-radius: 10px;
@@ -70,7 +70,6 @@ li a{
 }
 li a:hover{
     background-color: rgb(243, 91, 74);
-    border-radius: 30px;
 }
 main{
     position: absolute;
@@ -137,7 +136,7 @@ section{
     color: rgb(243, 91, 74);
 }
 .stiwek{
-    background-image: url("../img/stiwekmc-gif.gif");
+    background-image: url("../img/icon3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
