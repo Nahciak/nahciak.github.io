@@ -22,7 +22,7 @@ nav ul,li{
     list-style: none;
     margin: 0;
     padding: 0;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 li a{
     color: white;
@@ -30,20 +30,21 @@ li a{
     font-weight: bold;
     float: right;
     padding: 25px 50px 25px 50px;
-    transition: ease 0.3s opacity;
     background-color: #363636;
     border-radius: 10px;
-    transition: ease 0.3s;
+    transition: ease 0.15s;
     line-height: 20px;
-    margin: 20px
+    margin: 20px;
+    box-shadow: #340e85 0px 0px 0px;
 }
 li a:hover{
     background-color: #6732d8;
+    box-shadow: #340e85 10px 11px 0px;
 }
 .hero{
     width: 75%;
     height: 750px;
-    margin-left: 150px;
+    margin: auto;
     padding-top: 150px;
     /* outline: 1px solid green; */
 }
@@ -51,7 +52,7 @@ li a:hover{
     margin-bottom: 12px;
     padding-top: 50px;
     line-height: 0.8;
-    font-size: 6em;
+    font-size: 6em; 
 }
 .title h1{
     text-align: left;
@@ -63,12 +64,14 @@ li a:hover{
 .desc{
     margin-top: 0;
     margin-bottom: 40px;
-    padding: 5px 5px 5px 15px;
     font-size: 1.6em;
-    line-height: 0.2;
+    color: rgb(235, 235, 235);
+}
+.desc p{
+    margin: 5px;
 }
 .hero a{
-    padding: 17px;
+    padding: 15px 35px 15px 35px;
     border-radius: 5px;
     border: solid 5px #6732d8;
     margin: 15px;
@@ -76,12 +79,11 @@ li a:hover{
     color: white;
     font-weight: bold;
     font-size: 1.2em;
-    transition: ease 0.3s;
+    transition: ease 0.15s;
     box-shadow: #340e85 3px 4px 0px;
     opacity: 0.8;
 }
 .hero a:hover{
-    margin: 30px;
     box-shadow: #340e85 10px 11px 0px;
     opacity: 1;
 }
@@ -89,7 +91,7 @@ li a:hover{
     position: relative;
     font-size: 4em;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
 }
 .projects{
@@ -112,28 +114,21 @@ li a:hover{
     cursor: pointer;
     width: 400px;
     height: 500px;
+    transition: ease .15s;
 }
 .card p{
     line-height: 1;
     margin: 10px;
 }
+.card img{
+    width: 35%;
+}
 .card:hover{
     border: 3px solid #6732d8;
+    transform: scale(101%);
 }
 .projectspan{
     color: #6732d8;
-}
-.stiwek{
-    background-image: url("../img/icon3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-}
-.video{
-    background-image: url("../img/icon2.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
 }
 body footer{
     display: flex;
