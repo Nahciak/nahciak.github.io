@@ -5,78 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Nahciak</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/test.svg">
 </head>
 <body>
-    <header>
-        <h1 class="title">Nahciak</h1>
-        <h1 class="title orange">Private Website</h1>
-        <p class="titletext"></p>
+    <nav>
+      <ul>
+          <li>
+            <a href="contact.txt">Contact</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero">
+        <section class="title">
+          <h1>Nahciak's</h1>
+          <h1 class="purp">Private Website</h1>
+        </section>
+        <section class="desc">
+          <p>Hello! I'm Nahciak, and I'm a junior developer.</p>
+          <p>Learning: C#, Java, Python, HTML, CSS, JavaScript.</p>
+          <p>Interesed in coding and gamedev for 3 years as a hobby.</p>
+        </section>
         <a href="https://www.tiktok.com/@ignnahciak">TIKTOK</a>
         <a href="https://pl.namemc.com/profile/Nahciak.1">NAMEMC</a>
         <a href="https://github.com/Nahciak">GITHUB</a>
         <a href="https://discord.gg/57QnXYFt7A">DISCORD</a>
-    </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="contact.txt">Contact</a>
-            </li>
-            <li>
-                <a href="">About</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
+      </section>
         <h1 id="projects">Here are some of my <span class="projectspan">projects</span>...</h1>
         <div class="projects">
-            <section>
-                <div class="flip">
-                    <div class="flip-inner">
-                      <div class="flip-front stiwek">
-                        <h2>Minecraft Server</h2>
-                      </div>
-                      <div class="flip-back" onclick="window.open('https://stiwekmc.pl', '_self')">
-                        <h2>StiwekMC.pl</h2>
-                        <p>Minecraft EarthSMP Server</p>
-                        <p>1.17+ Non-Premium</p>
-                      </div>
-                    </div>
-                  </div>
-            </section>
-            <section>
-                <div class="flip">
-                    <div class="flip-inner">
-                      <div class="flip-front video">
-                        <h2>Video edits</h2>
-                      </div>
-                      <div class="flip-back">
-                        <h2>Video edits</h2>
-                      </div>
-                    </div>
-                  </div>
-            </section>
-            <section>
-                <div class="flip">
-                    <div class="flip-inner">
-                      <div class="flip-front">
-                        <h2>Websites</h2>
-                      </div>
-                      <div class="flip-back">
-                        <h2>Websites</h2>
-                        <a href="https://stiwekmc.pl">StiwekMC.pl</a>
-                      </div>
-                    </div>
-                  </div>
-            </section>
+          <div class="card" onclick="window.open('https://stiwekmc.pl', '_self')">
+            <h2>StiwekMC.pl</h2>
+            <p>Minecraft EarthSMP Server</p>
+            <p>1.17+ Non-Premium</p>
+          </div>
+          <div class="card">
+            <h2>Video edits</h2>
+            <p>PLACEHOLDER</p>
+          </div>
+          <div class="card">
+            <h2>Websites</h2>
+            <p>PLACEHOLDER</p>
+            <a href="https://stiwekmc.pl">StiwekMC.pl</a>
+          </div>
+          <div class="card">
+            <h2>Some unrelased games</h2>
+            <p>Ginger</p>
+            <p>Himno inspired game</p>
+            <p>FNAF inspired game</p>
+          </div>
         </div>
     </main>
     <footer>
-      <h3>NAHCIAK</h3>
+      <h3>DISCORD @NAHCIAK</h3>
     </footer>
 </body>
 </html>
