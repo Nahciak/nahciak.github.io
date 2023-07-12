@@ -3,12 +3,12 @@
     /* outline: 1px solid red; */
 }
 body{
-    background-color: #141414;
+    background-image: url('../img/background.png');
     color: white;
     font-family: Roboto;
     min-height: 100vh;
     margin: auto;
-    animation: test ease .8s;
+    animation: test ease .5s;
 }
 html{scroll-behavior:smooth}
 nav{
@@ -145,7 +145,7 @@ body footer{
 @keyframes test{
     from {
         opacity: 0;
-        transform: translateY(-150px);
+        transform: translateY(-50px);
     }
     to {
         opacity: 1;
