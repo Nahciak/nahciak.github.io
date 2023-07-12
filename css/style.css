@@ -52,7 +52,8 @@ li a:hover{
     margin-bottom: 12px;
     padding-top: 50px;
     line-height: 0.8;
-    font-size: 6em; 
+    font-size: 6em;
+    font-family: 'Sora', sans-serif;
 }
 .title h1{
     text-align: left;
@@ -92,6 +93,7 @@ li a:hover{
     margin: auto;
     margin-bottom: 100px;
     text-align: center;
+    font-family: 'Sora', sans-serif;
 }
 .projects{
     width: 100%;
