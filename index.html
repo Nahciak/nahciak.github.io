@@ -1,85 +1,156 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home | Nahciak</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" href="img/pfp.webp">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Nahciak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/cloud.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
-<nav>
-<ul>
-<li>
-<a href="#about">About</a>
-</li>
-<li>
-<a href="#projects">Projects</a>
-</li>
-<li>
-<a href="contact.txt">Contact</a>
-</li>
-</ul>
-</nav>
-<main>
-<section class="hero" id="about">
-<section class="title">
-<h1>Nahciak's</h1>
-<h1 class="purp">Portfolio Website</h1>
-</section>
-<section class="desc">
-<p>Hello! I'm Nahciak, and I'm a junior developer. </p>
-<p>Learning: C#, Java, Python, HTML, CSS, JavaScript. </p>
-<p>Interesed in coding and gamedev for 3 years as a hobby. </p>
-</section>
-<a href="https://www.tiktok.com/@ignnahciak">TIKTOK</a>
-<a href="https://pl.namemc.com/profile/Nahciak.1">NAMEMC</a>
-<a href="https://github.com/Nahciak">GITHUB</a>
-<a href="https://discord.gg/57QnXYFt7A">DISCORD</a>
-</section>
-<h1 id="projects">Here are some of my <span class="projectspan">projects</span>... </h1>
-<div class="projects">
-<div class="card">
-<h2>StivekMC.pl</h2>
-<img src="img/stivekmc.webp" alt="">
-<p>Minecraft EarthSMP Server & Website</p>
-<p>1.17+ Non-Premium</p>
-<br>
-<a href="https://stivekmc.pl/">Website</a>
-<a href="https://www.tiktok.com/@stivekmc.fp/">TikTok</a>
-</div>
-<div class="card hide">
-<h2>Video Effects</h2>
-<p>NOT PUBLISHED</p>
-<img src="img/room.png" alt="">
-</div>
-<div class="card">
-<h2>Websites</h2>
-<img src="img/pfp.webp" alt="">
-<br><br>
-<a href="">Nahciak.github.io</a>
-<a href="https://stivekmc.pl">StivekMC.pl</a>
-<a href="http://koxplay.pl/">KoxPlay.pl (juz nie)</a>
-</div>
-<div class="card hide">
-<h2>Some unrelased games</h2>
-<p>Ginger - 2D RPG</p>
-<p>Himno inspired game</p>
-<p>FNAF inspired game</p>
-<p>LONGEYED PROJ inspired game</p>
-</div>
-<div class="card hide">
-<h2>Graphics</h2>
-<p>NOT PUBLISHED</p>
-</div>
-</div>
-</main>
-<footer>
-<h3>MADE WITH <span class="heart"> ❤ </span> BY @NAHCIAK</h3>
-</footer>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <nav class="noselect">
+        <h1 id="logo" onclick="location.reload()">Nahciak</h1>
+        <ul>
+            <li>
+                <a href="#about" class="btn-outline">About</a>
+            </li>
+            <li>
+                <a href="#projects" class="btn-outline">Projects</a>
+            </li>
+            <li>
+                <a href="contact.txt" class="btn-outline">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero-section" id="about">
+            <section class="herotext" data-aos="fade-up">
+                <section class="maintitle">
+                    <h1>Nahciak's</h1>
+                    <h1 class="gradient-text">Website</h1>
+                </section>
+                <section class="desc">
+                    <p class="dev"><span class="check"></span>&nbsp;Junior Developer</p>
+                    <br>
+                    <p>Hello! I'm <b class="gradient-text">Nahciak</b>, and I'm interesed </p>
+                    <p>in coding since 2019 as a hobby.</p>
+                    <br>
+                    <a href="#social" class="btn-main">More...</a>
+                </section>
+            </section>
+            <img data-aos="fade-up" id="cloudimg" src="img/cloud.svg" alt="">
+        </section>
+
+        <i id="social"></i>
+        <h1 data-aos="fade-up" class="sectiontitle">My <span class="gradient-text">socials</span></h1>
+        <section class="socials-section" data-aos="fade-up">
+            <a href="https://www.tiktok.com/@ignnahciak" class="social">
+                <img src="img/tiktok.svg" alt="">
+            </a>
+            <a href="https://pl.namemc.com/profile/Nahciak.1" class="social">
+                <img src="img/namemc.svg" alt="">
+            </a>
+            <a href="https://github.com/Nahciak" class="social">
+                <img src="img/github.svg" alt="">
+            </a>
+            <a href="https://discord.gg/57QnXYFt7A" class="social">
+                <img src="img/discord.svg" alt="">
+            </a>
+        </section>
+        
+        <img src="img/block.svg" id="move" alt="">
+
+        <h1 data-aos="fade-up" class="sectiontitle"><span class="gradient-text">Languages</span> I use</h1>
+        <section class="languages-section" data-aos="fade-up">
+            <section class="slider-all">
+                <h3>HTML & CSS</h3>
+                <section class="slider-base">
+                    <section class="slider html">
+                        <i>90%</i>
+                    </section>
+                </section>
+            </section>
+            <section class="slider-all">
+                <h3>C#</h3>
+                <section class="slider-base">
+                    <section class="slider cs">
+                        <i>75%</i>
+                    </section>
+                </section>
+            </section>
+            <section class="slider-all">
+                <h3>JS</h3>
+                <section class="slider-base">
+                    <section class="slider js">
+                        <i>10%</i>
+                    </section>
+                </section>
+            </section>
+            <section class="slider-all">
+                <h3>PYTHON</h3>
+                <section class="slider-base">
+                    <section class="slider python">
+                        <i>25%</i>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <i id="projects"></i>
+        <h1 data-aos="fade-up" class="sectiontitle">Here are some of my <span class="gradient-text">projects</span>... </h1>
+        <section class="projects-section" data-aos="fade-up">
+            <section class="cards">
+                <div class="card card-long">
+                    <h2>Placeholder</h2>
+                </div>
+                <div class="card">
+                    <h2>Placeholder</h2>
+                </div>
+                <div class="card">
+                    <h2>Placeholder</h2>
+                </div>
+                <div class="card">
+                    <h2>Placeholder</h2>
+                </div>
+                <div class="card card-long">
+                    <h2>Placeholder</h2>
+                </div>
+                <div class="card">
+                    <h2>Placeholder</h2>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h3>MADE WITH <span class="heart"> ❤ </span> BY @NAHCIAK</h3>
+    </footer>
+    <script>
+        let cloud = document.getElementById('move');
+
+        window.addEventListener('scroll', () => {
+            let scrollPosition = window.scrollY;
+            cloud.style.transform = `translate(0, ${(scrollPosition)/3}px)`;
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 10, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: true, // whether elements should animate out while scrolling past them
+        });
+    </script>
 </body>
+
 </html>

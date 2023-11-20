@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 2048 2048">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="323.375" y1="454.192" x2="1517.56" y2="1648.377" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5e1ad3"/>
+      <stop offset="1" stop-color="#c233ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2010.91" y1="1605.44" x2="1063.22" y2="657.75" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="657.219" y1="1945.19" x2="53.219" y2="1341.19" xlink:href="#linear-gradient"/>
+  </defs>
+  <circle class="cls-1" cx="920.467" cy="1051.284" r="597.092"/>
+  <path id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-2" d="M1537.07,657.758c261.69,0,473.84,212.147,473.84,473.842s-212.15,473.85-473.84,473.85-473.85-212.15-473.85-473.85S1275.37,657.758,1537.07,657.758Z"/>
+  <circle class="cls-3" cx="355.219" cy="1643.19" r="302"/>
+</svg>
